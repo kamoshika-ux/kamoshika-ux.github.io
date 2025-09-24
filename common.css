@@ -1,0 +1,694 @@
+@charset "UTF-8";
+
+html {
+    z-index: 1;
+  font-size: 100%;
+    scroll-padding-top: 15px;
+    scroll-behavior: smooth;
+}
+
+body {background-color: #0f2350;/*濃藍色*/
+  font-family: 'Poppins', sans-serif;
+      padding-left: 10px;
+  padding-right: 10px;
+  font-size: 0.85rem;
+      color: #1c305c;/*留紺*/
+     overflow-x: hidden;}
+ul {
+  list-style: none;
+}
+a {text-decoration: none;
+  color: #D4ECEE;/*白藍*/}
+
+header {
+  width: 100%;
+  background-color: #0f2350;}/*濃藍色*/
+
+.nat
+{border: 2px solid #47585c;
+ width: 90%;
+  margin-left: auto;
+ 
+ border-radius: 10px;
+  background-color: #0086AD;/*花色*/
+  padding: 2em;
+}
+
+@keyframes progressbar {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+h1 {
+  line-height: 75px;
+  font-size: 1.5rem;
+  text-align: center;
+     background-color: #165e83;/*藍色*/
+    color: #D4ECEE;/*白藍*/}
+h2{
+     background-color: #68679E;/*富士難度色*/
+    color: #D4ECEE;/*白藍*/}
+
+
+h3 {
+     background-color: #165e83;/*藍色*/
+    color: #D4ECEE;/*白藍*/}
+h4{
+    background-color:  #00a3af;
+    color: #1c305c;}
+}
+  img {
+  border: solid 1px #80989b;/*湊鼠*/
+  border-radius: 8px;
+}
+
+nav {
+  background-color: #274a78;/*青藍*/
+}
+.box3{color: #1c305c;/*留紺*/
+ background-color: #abced8;/*秘色色*/
+ margin-right: 0;
+  margin-left: auto;}
+
+.rad {color: #1c305c;/*留紺*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #a0d8ef;/*空*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+
+.cap {color: #D4ECEE;/*白藍*/
+    border: 2px solid #47585c;
+  border-radius: 15px;
+  background-color: #4c6473;/*お召お納戸*/
+  padding: 0.5em;
+     width: 100%;}
+.you {
+    border: 2px solid #47585c;
+  border-radius: 15px;
+    font-size: 1.24rem;
+  background-color: #4c6473;/*お召お納戸*/
+  padding: 0.5em;
+     width: 90%;text-decoration: none; /* 下線を消す */
+        text-shadow: 
+            1px 0px 0 #a0d8ef, /* 右下 */
+            -1px 0px 0 #a0d8ef, /* 左上 */
+            1px 0px 0 #a0d8ef, /* 右上 */
+            -1px 0px 0 #a0d8ef; /* 左下 */}
+
+.bar {color: #203744;/*褐返*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #2792c3;/*縹*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+.pop{color: #D4ECEE;/*褐返*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #485859;/*錆鉄御納戸*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+    
+     }
+
+   
+
+
+.box{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #84B9CB;/*浅縹*/
+      padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+.fox{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #80989b;/*湊鼠*/
+      padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+.sad{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #a2d7dd;/*瓶覗*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+.kid{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #5c9291;/*錆浅葱*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+.kic{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #97C3D0;/*薄藍*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+.cat{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #59b9c6;/*新橋色*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+
+.pet{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #244344; /*鉄色*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+    
+}
+.bat{border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #7ec7d8;/*水縹*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+.rak{color: #D4ECEE;/*藍白*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #07365B;/*紺藍*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;
+}
+
+
+/*
+グローバルナビゲーション
+「position: relative;」で、サブメニュー（Wide）の基準位置として設定
+*/
+.menu {
+    font-size: 0.8rem;
+    z-index: 999;
+     width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  position: relative;
+    text-align: center;
+    padding: 0 10%; /* 左右の余白を設定 */
+}
+.menu > li {
+    font-size: 0.8rem;
+    background-color:　#00849c;
+     height: 10%;
+    width: 20%;
+  line-height: 50px;
+  text-align: center;
+}
+.menu > li:hover {
+text-align: center;
+    font-size: 0.9rem;
+  background-color: #00849c;/*浅葱色*/
+}
+/*
+「display: block;」でリンク範囲を親要素と同じ範囲まで広げる
+*/
+.menu > li a {
+    text-align: center;
+    font-size: 0.8rem;
+    text-align: center;
+  display: block;
+}
+/*
+ドロップダウン用のメニュー
+初期状態は表示しないため、「visibility: hidden;」で非表示にしておく
+*/
+.menu-second {
+    text-align: center;
+    font-size: 0.7rem;
+  visibility: hidden;
+}
+
+/*
+Menu Single
+「position: relative;」で、サブメニュー（Single）の基準位置として設定
+*/
+.menu > .single {
+    text-align: center;
+    text-align: center;
+                 font-size: 0.7rem;
+  position: relative;
+}
+/*
+「position: absolute;」で、singleクラスを基準に所定の位置に配置する
+*/
+.single .menu-second {
+    text-align: center;
+    font-size: 0.7rem;
+  background-color:  #507ea4;/*薄縹*/
+  position: absolute;
+  top: 50px;
+    font-size: 0.7rem;
+    right:-20%;
+    left:-20%;
+}
+.single .menu-second li a:hover {
+    text-align: center;
+  opacity: 0.7;
+    font-size: 0.875rem;
+}
+/*
+ホバー時にサブメニュー（Single）を表示する
+*/
+.single:hover .menu-second {
+    text-align: center;
+    font-size: 0.9rem;
+  visibility: visible;
+}
+
+/*
+Menu Wide
+「position: absolute;」で、menuクラスを基準に所定の位置に配置する
+*/
+.wide .menu-second {
+    font-size: 0.7rem;
+  background-color: #5a79ba;/*薄花桜*/
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 50px;
+  left: 5%;
+    right: 5%;
+}
+.wide .menu-second li {
+    font-size: 0.7rem;
+  width: 25%;
+}
+.wide .menu-second li a:hover {
+    font-size: 0.9rem;
+  opacity: 0.7;
+}
+/*
+ホバー時にサブメニュー（Wide）を表示する
+*/
+.wide:hover .menu-second {
+    font-size: 0.9rem;
+  visibility: visible;
+}
+
+.text {color: transparent;
+       font-size: 0.9rem;
+/* オレンジと黒が50%の位置で切り替わるグラデーション */
+  background: linear-gradient(to right, #393f4c 50%, #ebf6f7 50%) 100%;/*藍鉄＆藍白*/
+  /* 背景をテキストで切り抜く */
+  background-clip: text;
+
+  /* 横幅は200%にしてグラデーションの青部分は見えないようにする */
+  background-size: 200% 100%;
+
+  transition: background-position 0.75s;
+}
+
+.text:hover {
+  /* グラデーションの位置を移動して、オレンジ部分を見せる */
+  background-position: 0 100%;
+}
+
+
+
+
+.text2 {color: transparent;font-size: 0.875rem;
+/* オレンジと黒が50%の位置で切り替わるグラデーション */
+  background: linear-gradient(to right, #104539 50%, #ebf6f7 50%) 100%;/*高麗納戸＆藍白*/
+  /* 背景をテキストで切り抜く */
+  background-clip: text;
+
+  /* 横幅は200%にしてグラデーションの青部分は見えないようにする */
+  background-size: 200% 100%;
+
+  transition: background-position 0.75s;
+}
+
+.text2:hover {
+  /* グラデーションの位置を移動して、オレンジ部分を見せる */
+  background-position: 0 100%;
+}
+
+
+.pagetop {
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    background: #008899;/*納戸*/
+    border: solid 2px #47585c;/*錆鼠*/
+    border-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.pagetop__arrow {
+    height: 10px;
+    width: 10px;
+    border-top: 3px solid #e8ecef;/*白花色*/
+    border-right: 3px solid #e8ecef;
+    transform: translateY(20%) rotate(-45deg);
+}
+.progressbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 7px;
+  background-color: #824880;/*茄子紺*/
+  animation: progressbar linear both;
+  animation-timeline: scroll();
+  animation-range: entry 0% cover 100%;
+}
+@media (hover: hover) and (pointer: fine) {
+    .pagetop:hover, .pagetop:hover .pagetop__arrow {
+        border-color: 	#74aea9;/*水浅葱色*/
+         background: #192f60;/*紺青*/
+    }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.75rem;
+  }
+}
+
+#jump:target {
+  animation: highlight 2.4s ease-in-out;
+}
+@keyframes highlight {
+  0% {
+    background-color: #fceb70;
+  }
+  100% {
+    background-color: transparent;
+  }
+}
+.yokonisuru {
+  display: flex;
+    scroll-behavior: smooth;
+    width: 100%;
+  height: 70%;
+  overflow-x: scroll;
+border: solid;
+border-radius: 8px;/* 半径が8pxの角丸 */
+    border-color:#460e44;
+    
+}
+ 
+.yokonisuru div {
+    scroll-margin-top: 50vh;
+     border: 2px solid #47585c;
+  border-radius: 15px;
+  width: 75%;
+    height: 40%;
+  margin: 5px;
+    margin-right: 20px;
+    text-align: center;
+  flex-shrink: 0;
+    padding-top: 20px;
+ /* 上側に20px間隔を空ける */
+  padding-right: 20px;
+ /* 右側に20px間隔を空ける */
+  padding-bottom: 20px;
+ /* 下側に20px間隔を空ける */
+  padding-left: 20px;
+ /* 左側に20px間隔を空ける */ 
+}
+.yokonisuru div3 {
+    scroll-margin-top: 50vh;
+     border: 2px solid #47585c;
+    color: #ebf6f7;/*藍白*/
+  border-radius: 15px;
+  width: 75%;
+    height: 40%;
+  margin: 5px;
+    margin-right: 20px;
+    text-align: center;
+  flex-shrink: 0;
+    padding-top: 20px;
+ /* 上側に20px間隔を空ける */
+  padding-right: 20px;
+ /* 右側に20px間隔を空ける */
+  padding-bottom: 20px;
+ /* 下側に20px間隔を空ける */
+  padding-left: 20px;
+ /* 左側に20px間隔を空ける */;
+}
+.yokonisuru div1 {
+    scroll-margin-top: 50vh;
+     border: 2px solid #47585c;
+  border-radius: 15px;
+  width: 15%;
+    height: 50%;
+  margin: 5px;
+    margin-right: 20px;
+    text-align: center;
+  flex-shrink: 0;
+    padding-top: 20px;
+ /* 上側に20px間隔を空ける */
+  padding-right: 20px;
+ /* 右側に20px間隔を空ける */
+  padding-bottom: 20px;
+ /* 下側に20px間隔を空ける */
+  padding-left: 20px;
+ /* 左側に20px間隔を空ける */;
+}
+.yokonisuru div2 {
+    scroll-margin-top: 50vh;
+     border: 2px solid #47585c;
+  border-radius: 15px;
+  width: 50%;
+    height: 50%;
+  margin: 5px;
+    margin-right: 20px;
+    text-align: center;
+  flex-shrink: 0;
+    padding-top: 20px;
+ /* 上側に20px間隔を空ける */
+  padding-right: 20px;
+ /* 右側に20px間隔を空ける */
+  padding-bottom: 20px;
+ /* 下側に20px間隔を空ける */
+  padding-left: 20px;
+ /* 左側に20px間隔を空ける */;
+}
+
+.tetutetutetutetu {
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #005243;/*空*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+
+.kaisya {
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #4d4c61;/*空*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+
+
+ .hassyoku {color: #393f4c;/*藍鉄*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #393f4c;/*藍鉄*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+
+.teityaku {color: #393f4c;/*藍鉄*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #203744;/*褐返*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  width: 100%;
+  background: #44aa33;
+}
+ .timeline-item {
+      margin-bottom: 20px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+    }
+
+    .timeline-item:last-child {
+      border-bottom: none;
+    }
+
+  serif;
+   background-color:#f6f5f4;
+}
+
+.sider {
+  background-color:#ff838b;
+    width:65%;
+  text-align:center;
+    
+} 
+
+.contentber {
+  background-color:#b3d874;
+  width:65%;
+  height:300px;
+  text-align:center;
+  margin-left:10px;/*サイドバーとメインコンテンツの間に隙間                    をあけた*/
+}
+
+article {
+  display:flex;/*サイドバーとメインコンテンツを横並びにする                指定をした*/
+}
+
+.wat {color: #203744;/*褐返*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #507ea4;/*淺縹*/
+  padding: 2em;
+     width: 90%;
+ margin-right: 0;
+  margin-left: auto;}
+
+
+
+
+
+.a-subennyababanittyuwawa {color: #393e4f;/*青褐色*/
+    border: 2px solid #47585c;
+  border-radius: 10px;
+  background-color: #698aab;/*薄花色*/
+  padding: 2em;
+     width: 500px;
+    margin-left: auto;
+    margin-right: auto;}
+
+.contact-form
+{border:1.5px solid #203744;
+    padding: 35px 30px;
+ }
+.title{
+    text-align: center;
+       font-size: 20px;
+       margin-bottom: 20px;
+font-weight: bold;
+}
+.form{border: 1px solid #165e83;
+    width: 460px;}
+.item{background-color: #7ec7d8;/*白藍*/
+    overflow: hidden;
+      color:#460e44;
+    margin-bottom:20px;
+border:1.5px solid #203744;
+padding-top:10px;
+padding-left:10px;
+padding-bottom:10px;}
+.label{
+    
+    float: left;
+    margin-right:20px;
+    border-left:3px solid #4d5aaf;
+    width: 135px;
+    padding-left:10px;}
+
+.input{background-color: #abced8;/*白藍*/
+      border: 1px solid #165e83;
+     border:0px}
+
+
+textarea{/*何故かここの.を抜くとバグる*/
+    background-color: #c1e4e9;/*白藍*/
+    border: 1px solid #165e83;
+    border-redius: 5px;
+    padding:10px;
+    font-size:15px;
+    border-redius: 5px;
+    height:160px;
+    width: 395px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="submit"]{
+     border: none;
+    padding: 10px 20px;
+    color: #abced8;
+    fontsize: 17px;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #460e44;/*紫紺*/
+    background-color: #824880;/*茄子紺*/
+cursor: pointer;}
+
+
+input[type="reset"]{
+     border: none;
+    padding: 10px 20px;
+    color: #abced8;
+    fontsize: 17px;
+    font-weight: bold;
+    margin-left: 30px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px #53727d;/*鉄御納戸*/
+    background-color: #4c6473;/*御召御納戸*/
+cursor: pointer;}
+
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  background-color: #45a1ff;
+  color: #fff;
+}
+
+.wrap {
+    margin-right:100px;
+    width: 100%;
+	display: flex; /*--横並び指定--*/	
+background-color: #0094c8;/*うす藍
+    */}
+.zoo{
+    text-align: center;
+    width: 15%;}
+.zop{
+    text-align: center;
+    width: 19%;}
+	
