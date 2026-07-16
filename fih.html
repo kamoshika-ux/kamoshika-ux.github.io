@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time-lapse Gallery</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px 30px;
+            background-color: #ffffff;
+            border-bottom: 1px solid #e1e8ed;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            font-weight: 400;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #657786;
+            font-size: 0.95rem;
+        }
+
+        /* 💡 ギャラリーのグリッド設定 */
+        .gallery-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        /* 💡 写真カード */
+        .photo-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            transition: transform 0.2s ease;
+        }
+
+        .photo-card:hover {
+            transform: translateY(-3px);
+        }
+
+        .photo-wrapper {
+            position: relative;
+            width: 100%;
+            aspect-ratio: 4 / 3;
+            background-color: #e1e8ed;
+        }
+
+        .photo-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .photo-label {
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 0.9rem;
+            background-color: #ffffff;
+            border-top: 1px solid #f0f3f6;
+            color: #4a5568;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #a0aec0;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>経過観察ギャラリー</h1>
+        <p>0分から180分までの記録（5分間隔）</p>
+    </header>
+
+    <!-- 💡 37枚分の写真をすべて個別に配置 -->
+    <main class="gallery-container">
+
+        <!-- 0min 〜 40min -->
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="0min.jpg" alt="0min" loading="lazy"></div>
+            <div class="photo-label">0 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="5min.jpg" alt="5min" loading="lazy"></div>
+            <div class="photo-label">5 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="10min.jpg" alt="10min" loading="lazy"></div>
+            <div class="photo-label">10 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="15min.jpg" alt="15min" loading="lazy"></div>
+            <div class="photo-label">15 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="20min.jpg" alt="20min" loading="lazy"></div>
+            <div class="photo-label">20 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="25min.jpg" alt="25min" loading="lazy"></div>
+            <div class="photo-label">25 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="30min.jpg" alt="30min" loading="lazy"></div>
+            <div class="photo-label">30 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="35min.jpg" alt="35min" loading="lazy"></div>
+            <div class="photo-label">35 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="40min.jpg" alt="40min" loading="lazy"></div>
+            <div class="photo-label">40 min</div>
+        </div>
+
+        <!-- 45min 〜 85min -->
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="45min.jpg" alt="45min" loading="lazy"></div>
+            <div class="photo-label">45 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="50min.jpg" alt="50min" loading="lazy"></div>
+            <div class="photo-label">50 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="55min.jpg" alt="55min" loading="lazy"></div>
+            <div class="photo-label">55 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="60min.jpg" alt="60min" loading="lazy"></div>
+            <div class="photo-label">60 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="65min.jpg" alt="65min" loading="lazy"></div>
+            <div class="photo-label">65 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="70min.jpg" alt="70min" loading="lazy"></div>
+            <div class="photo-label">70 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="75min.jpg" alt="75min" loading="lazy"></div>
+            <div class="photo-label">75 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="80min.jpg" alt="80min" loading="lazy"></div>
+            <div class="photo-label">80 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="85min.jpg" alt="85min" loading="lazy"></div>
+            <div class="photo-label">85 min</div>
+        </div>
+
+        <!-- 90min 〜 130min -->
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="90min.jpg" alt="90min" loading="lazy"></div>
+            <div class="photo-label">90 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="95min.jpg" alt="95min" loading="lazy"></div>
+            <div class="photo-label">95 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="100min.jpg" alt="100min" loading="lazy"></div>
+            <div class="photo-label">100 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="105min.jpg" alt="105min" loading="lazy"></div>
+            <div class="photo-label">105 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="110min.jpg" alt="110min" loading="lazy"></div>
+            <div class="photo-label">110 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="115min.jpg" alt="115min" loading="lazy"></div>
+            <div class="photo-label">115 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="120min.jpg" alt="120min" loading="lazy"></div>
+            <div class="photo-label">120 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="125min.jpg" alt="125min" loading="lazy"></div>
+            <div class="photo-label">125 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="130min.jpg" alt="130min" loading="lazy"></div>
+            <div class="photo-label">130 min</div>
+        </div>
+
+        <!-- 135min 〜 180min -->
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="135min.jpg" alt="135min" loading="lazy"></div>
+            <div class="photo-label">135 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="140min.jpg" alt="140min" loading="lazy"></div>
+            <div class="photo-label">140 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="145min.jpg" alt="145min" loading="lazy"></div>
+            <div class="photo-label">145 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="150min.jpg" alt="150min" loading="lazy"></div>
+            <div class="photo-label">150 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="155min.jpg" alt="155min" loading="lazy"></div>
+            <div class="photo-label">155 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="160min.jpg" alt="160min" loading="lazy"></div>
+            <div class="photo-label">160 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="165min.jpg" alt="165min" loading="lazy"></div>
+            <div class="photo-label">165 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="170min.jpg" alt="170min" loading="lazy"></div>
+            <div class="photo-label">170 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="175min.jpg" alt="175min" loading="lazy"></div>
+            <div class="photo-label">175 min</div>
+        </div>
+        <div class="photo-card">
+            <div class="photo-wrapper"><img src="180min.jpg" alt="180min" loading="lazy"></div>
+            <div class="photo-label">180 min</div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Gallery Project.</p>
+    </footer>
+
+</body>
+</html>
